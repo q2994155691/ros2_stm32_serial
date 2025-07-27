@@ -10,5 +10,5 @@
 如果結果是/dev/ttyUSB0就没有問題,
 有時有可能是/dev/ttyUSB1之類的,就要想方法改成/dev/ttyUSB0
 
-確保你的stm32開發版輸出的波特率為9600,都没問題的話就輸入ros2 launch controlko_bringup rrbot_real.launch.py \ uart_port:=/dev/ttyUSB1 uart_baudrate:=9600
+確保你的stm32開發版輸出的波特率為9600,都没問題的話就輸入ros2 launch controlko_bringup rrbot_real.launch.py \ uart_port:=/dev/ttyUSB0 uart_baudrate:=9600
 
